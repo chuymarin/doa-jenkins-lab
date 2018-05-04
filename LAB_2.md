@@ -81,6 +81,7 @@ cat /path/to/your/id_rsa
 * In this case you should see the contents of your repository
 
 **Recap**
-What do we did?
-What is an SCM step?
-What other things do you think that can be done after cloning your repository?
+* What do we did?
+* What is an SCM step?
+* What the "Delete workspace before build starts" does? xD
+* What other things do you think that can be done after cloning your repository?
