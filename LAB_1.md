@@ -69,5 +69,5 @@ Jenkins Jobs can do anything that we want so:
   
 **Step 7: Let's do acutally useful stuff**
 We are going to configure our job to clone a repository from your github account.
-* Go to - [Lab 2 - Create SCM Job](https://github.com/chuymarin/doa-jenkins-lab/blob/master/LAB_2.md)
+* Go to - [Lab 2 - Create and Configure an SCM Job](https://github.com/chuymarin/doa-jenkins-lab/blob/master/LAB_2.md)
 
