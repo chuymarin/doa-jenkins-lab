@@ -9,7 +9,7 @@
 
 **Step 2: Configure the Job**
 * Fill the description with something like: This is my first Jenkins Job
-  
+
 **Step 3: Add a Build Step**
 * Select the "Build" Tab from the top tab menu
 * Click on "Add build step" and select "Execute shell" option
@@ -18,7 +18,7 @@
 echo "Hello World, my name is (Your Name)"
 ```
 * Click "Save" button
-
+  
 **Step 4: Running your Job**
 * From the right menu, select "Build Now"
 * You will see in the "Build History" the run of your job
@@ -31,7 +31,7 @@ Finished: SUCCESS
 ```
 * Pretty easy right?
 * Let's do something else...
-
+\
 **Step 5: Configure your Job (again)**
 * Click in "Back to Project" link from the right menu
 * Click in "Configure" link from the right menu
@@ -46,10 +46,10 @@ Finished: SUCCESS
 echo "Hello World, my name is ${MY_NAME}"
 ```
 * Click "Save" button
-
+  
 **Step 6: Running your Job**
 * From the right menu, select "Build with Parameters"
-* Now you can choose your name, choose your favorite superhero or any character
+* Now you can choose your name, choose your favorite superhero or any character and click "Build" button
 * You will see in the "Build History" a second run of your job
 * Click on it and then click in "Console Output" from the right menu
 * You will see something like:
@@ -59,14 +59,14 @@ Hello World, my name is (your chosen name)
 Finished: SUCCESS
 ```
 * Still easy right?, but now you can choose your name, so everyone can use your job for just saying Hello World
-
+  
 **Recap**
 Jenkins Jobs can do anything that we want so:
 * What do we did?
 * What are parameters in a job?
 * What is a build step?
 * What other things do you think can be done with Jenkins Jobs?
-
+  
 **Step 7: Let's do acutally useful stuff**
 We are going to configure our job to clone a repository from your github account that will contain an application that we can build
 * Work in Progress
