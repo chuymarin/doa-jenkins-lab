@@ -48,7 +48,7 @@ cat /path/to/your/id_rsa
   * Description: (Your github username) ssh key
 * Click in "OK" button
 
-**Step 5: Create a SCM Job**
+**Step 5: Create an SCM Job**
 * Go to Jenkins main page
 * Click New Item Link
 * Enter Item Name: SCM_Job
@@ -66,9 +66,13 @@ cat /path/to/your/id_rsa
   * You can find that un your repository site, "Clone or Download" button, "Use SSH" link, and copy the URL
   * Credentials: select your created credentials
 * Note: Jenkins will try to access your repository, and it will show an error if it is not able to access, selecting your credentials should fix the issue
+
+**Step 8: Add Build Environment Step**
+* Select the "Build Environment" Tab from the top tab menu
+* Select "Delete workspace before build starts"
 * Click in "Save" button from the bottom.
 
-**Step 8: Test your SCM Job**
+**Step 9: Test your SCM Job**
 * From the right menu, select "Build Now"
 * You will see in the "Build History" the run of your job
 * Click on it and then click in "Console Output" from the right menu
