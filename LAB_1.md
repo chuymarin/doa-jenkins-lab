@@ -68,6 +68,6 @@ Jenkins Jobs can do anything that we want so:
 * What other things do you think can be done with Jenkins Jobs?
   
 **Step 7: Let's do acutally useful stuff**
-We are going to configure our job to clone a repository from your github account that will contain an application that we can build
-* Work in Progress
+We are going to configure our job to clone a repository from your github account.
+* Go to - [Lab 2 - Create SCM Job](https://github.com/chuymarin/doa-jenkins-lab/blob/master/LAB_2.md)
 
