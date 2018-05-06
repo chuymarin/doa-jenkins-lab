@@ -1,4 +1,4 @@
-# Create and Configure a Jenkins Pipeline
+# Lab 4: Create and Configure a Jenkins Pipeline
 
 **Install Pre-Requisistes**
 * git
