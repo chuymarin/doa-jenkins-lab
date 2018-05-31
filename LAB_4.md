@@ -29,9 +29,9 @@ ng -v
 * Click "Save" button
   
 **Step 4: Running your Job**
-* From the right menu, select "Build Now"
+* From the left menu, select "Build Now"
 * You will see in the "Build History" the run of your job
-* Click on it and then click in "Console Output" from the right menu
+* Click on it and then click in "Console Output" from the left menu
 * You will see something like:
 ```
 + git --version
