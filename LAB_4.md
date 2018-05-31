@@ -68,7 +68,7 @@ Angular CLI: 6.0.0
 * Click in "Post-Build Actions" Tab
 * Click in "Add post-build action"
 * Select "Archive the artifacts" and fill the values as follow:
-  * 	Files to archive: `**/*`
+  * 	Files to archive: **/*
 * Click in "Add post-build action"
 * Select "Trigger parametrized build on other projects" and fill the values as follow:
   * Projects to build: Build_Job
