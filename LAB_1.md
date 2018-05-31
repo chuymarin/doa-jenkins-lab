@@ -4,7 +4,7 @@
 * Open Jenkins
 * Click New Item Link
 * Enter Item Name: Hello_World_Job
-* Select Freestyle Job
+* Select Freestyle Project
 * Click OK button
 
 **Step 2: Configure the Job**
@@ -22,7 +22,7 @@ echo "Hello World, my name is (Your Name)"
 **Step 4: Running your Job**
 * From the right menu, select "Build Now"
 * You will see in the "Build History" the run of your job
-* Click on it and then click in "Console Output" from the right menu
+* Click on it and then click in "Console Output" from the left menu
 * You will see something like:
 ```
 + echo 'Hello World, my name is (your name)'
@@ -34,7 +34,7 @@ Finished: SUCCESS
 \
 **Step 5: Configure your Job (again)**
 * Click in "Back to Project" link from the right menu
-* Click in "Configure" link from the right menu
+* Click in "Configure" link from the left menu
 * Select the option "This project is parameterized"
 * Click on "Add Parameter" and select "String Parameter"
 * You will need to fill 3 values: Name, Default Value, Description, fill the values as follow:
@@ -48,8 +48,8 @@ echo "Hello World, my name is ${MY_NAME}"
 * Click "Save" button
   
 **Step 6: Running your Job**
-* From the right menu, select "Build with Parameters"
-* Now you can choose your name, choose your favorite superhero or any character and click "Build" button
+* From the left menu, select "Build with Parameters"
+* Now you can type your name, your favorite superhero or any character you like in the "MY_NAME" field and click "Build" button
 * You will see in the "Build History" a second run of your job
 * Click on it and then click in "Console Output" from the right menu
 * You will see something like:
