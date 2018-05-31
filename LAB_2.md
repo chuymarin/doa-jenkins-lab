@@ -16,12 +16,13 @@ ssh-keygen
 * Copy the contents of your key, to see the content use the following command:
 ```
 cat /path/to/your/id_rsa.pub
+# usually in ~/.ssh/id_rsa.pub
 ```
 
 **Step 3: Add your ssh key to your github user**
 * Go to you github account
 * Click the arrow from your profile image and select "Settings"
-* Select "SSH and GPG Keys" from the right menu
+* Select "SSH and GPG Keys" from the left menu
 * Click in "New SSH key" button and fill the values
   * Title: id_rsa
   * Key: (paste the contents of your id_rsa.pub)
@@ -33,7 +34,7 @@ cat /path/to/your/id_rsa.pub
 cat /path/to/your/id_rsa
 ```
 * Open a browser and go to Jenkins
-* From the right menu click in "Credentials" link
+* From the left menu click in "Credentials" link
 * Then click in "System" link from the right menu
 * Click in "Global credentials" link
 * Click in "Add Credentials" link from the right menu
@@ -63,7 +64,7 @@ cat /path/to/your/id_rsa
 * Select "Git" option
 * Fill the Repositories values as follow:
   * Repository URL: paste the ssh url from your doa-angular-hello-world repository
-  * You can find that un your repository site, "Clone or Download" button, "Use SSH" link, and copy the URL
+  * You can find that in your repository site, "Clone or Download" button, "Use SSH" link, and copy the URL
   * Credentials: select your created credentials
 * Note: Jenkins will try to access your repository, and it will show an error if it is not able to access, selecting your credentials should fix the issue
 
