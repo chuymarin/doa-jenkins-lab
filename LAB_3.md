@@ -42,9 +42,8 @@ which npm
 which ng
 ´´´
 * For each binary you need to create the symbolic link as follow:
+* ln -s /path/to/binary /usr/sbin/binary
 ´´´
-# ln -s /path/to/binary /usr/sbin/binary
-# example
 ln -s /usr/local/bin/node /usr/sbin/node
 ln -s /usr/local/node/bin/npm /usr/sbin/npm
 ln -s /usr/local/bin/ng /usr/sbin/ng
