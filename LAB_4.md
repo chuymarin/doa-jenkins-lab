@@ -96,9 +96,10 @@ ng build --prod
 * Go to the bottom and click "Save" button
 
 **Step 6: Create Pipeline View**
-* Click "New View" link from the right menu
+* Go to main Jenkins page
+* Click "New View" link from the left menu
 * Enter View Name: NodeJS_Angular_Pipeline
-* Select: Build Pipeline
+* Select: Build Pipeline View
 * Click OK button
 
 **Step 7: Configure NodeJS_Angular_Pipeline View**
@@ -119,7 +120,7 @@ ng build --prod
 * If all boxes are in green that means you pipeline works correctly
 
 **Recap**
-* Check the workspapce and output of all jobs and explain what happened
+* Check the workspace and output of all jobs and explain what happened
 
 
 
