@@ -2,9 +2,9 @@
 
 **Install Pre-Requisistes**
 * git
-* node v10.0.0
-* npm 3.10.10
-* ng 6.0.0
+* node >= v10.0.0
+* npm >= 5.0.0
+* ng >= 6.0.0
 
 **Step 1: Test Configuration Job**
 * Open Jenkins
@@ -39,7 +39,7 @@ git version 1.8.3.1
 + node -v
 v10.0.0
 + npm -v
-3.10.10
+5.6.0
 + ng -v
      _                      _                 ____ _     ___
     / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
