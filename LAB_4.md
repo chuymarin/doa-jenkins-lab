@@ -122,6 +122,7 @@ ng build --prod
 **Recap**
 * Check the workspace and output of all jobs and explain what happened
 
-
+**Next**
+* [Lab 5 - Add Deploy Job to Jenkins Pipeline](https://github.com/chuymarin/doa-jenkins-lab/blob/master/LAB_5.md)
 
 
