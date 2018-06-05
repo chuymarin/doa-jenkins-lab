@@ -86,3 +86,6 @@ cat /path/to/your/id_rsa
 * What is an SCM step?
 * What the "Delete workspace before build starts" does? xD
 * What other things do you think that can be done after cloning your repository?
+
+**Next:**
+* [Lab 3 - Configure Pre-Requisites](https://github.com/chuymarin/doa-jenkins-lab/blob/master/LAB_3.md)
