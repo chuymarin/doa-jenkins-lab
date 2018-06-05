@@ -5,6 +5,7 @@
 * NPM version >= 5.0.0
 * Angular CLI >= 6.0.0
 * Docker >= 18.0.0
+* Git >= 2.13.16
 * Research about how to install these tools in your jenkins server
 
 **Step 1: Install NodeJs**
@@ -72,8 +73,18 @@ sudo service docker start
 sudo docker -v
 ```
 
+**Step 7: Install Git**
+* Install git
+```
+sudo yum install git
+```
+* Verify git version
+```
+sudo git version
+```
+
 **Recap**
-* In this lab we learned how to install nad upgrade tools, and set symbolic links for each of them.
+* In this lab we learned how to install and upgrade tools, and set symbolic links for each of them.
 
 **Next**
 * [Lab 4 - Create and Configure a Jenkins Pipeline](https://github.com/chuymarin/doa-jenkins-lab/blob/master/LAB_4.md)
