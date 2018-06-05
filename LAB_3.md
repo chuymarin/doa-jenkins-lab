@@ -73,7 +73,7 @@ sudo docker -v
 ```
 
 **Recap**
-* In this lab we learned how to install nad upgrade tools, and set symbolic links for each of them.
+* In this lab we learned how to install and upgrade tools, and set symbolic links for each of them.
 
 **Next**
 * [Lab 4 - Create and Configure a Jenkins Pipeline](https://github.com/chuymarin/doa-jenkins-lab/blob/master/LAB_4.md)

@@ -51,7 +51,6 @@ sudo docker ps -a
 **Step 5: Add Build Environment Step**
 * Select the "Build Environment" Tab from the top tab menu
 * Select "Delete workspace before build starts"
-* Click in "Save" button from the bottom.
 
 **Step 6: Add a Build Step**
 * Select the "Build" Tab from the top tab menu
@@ -72,8 +71,8 @@ ls -lha
 **Step 7:  Configure Trigger from Build_job to Deploy_job**
 * Configure the Build_Job and go to the Post-build Actions section.
 * Clic on "Add post build action"
-* Select Archive the artifacts
-* Fill Files to archive: **/*
+* Select "Archive the artifacts" and fill the values as follow:
+  * 	Files to archive: **/*
 * Clic on "Add post build action"
 * Select Trigger parameterized build on other projects
 * Fill as follows
@@ -86,7 +85,7 @@ ls -lha
 * Click in the "Run" button, to see your pipeline in action
 * If all boxes are in green that means you pipeline works correctly
 * If the pipeline works, open the nginx page in a browser: http://YOUR_INSTANCE_IP/
-* It must show a "Hello World" Angular webpage.
+* It must show an Angular Home page.
 
 **Recap**
 * Check the workspace and output of all jobs and explain what happened

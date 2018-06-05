@@ -1,11 +1,24 @@
 # Lab 2: Create and Configure an SCM Job
 
-**Step 1: Fork a Repo**
+**Requirements for this Lab**
+* Git >= 2.13.16
+
+**Step 1: Install Git**
+* Install git
+```
+sudo yum install git
+```
+* Verify git version
+```
+sudo git version
+```
+
+**Step 2: Fork a Repo**
 * Go to: https://github.com/chuymarin/doa-angular-hello-world
 * Click in the "Fork" button from the top
 * This will create the doa-angular-hello-world repository in your account
 
-**Step 2: Create your SSH Keys**
+**Step 3: Create your SSH Keys**
 * Open a gitbash terminal
 * Execute the following command:
 ```
@@ -19,7 +32,7 @@ cat /path/to/your/id_rsa.pub
 # usually in ~/.ssh/id_rsa.pub
 ```
 
-**Step 3: Add your ssh key to your github user**
+**Step 4: Add your ssh key to your github user**
 * Go to you github account
 * Click the arrow from your profile image and select "Settings"
 * Select "SSH and GPG Keys" from the left menu
@@ -28,7 +41,7 @@ cat /path/to/your/id_rsa.pub
   * Key: (paste the contents of your id_rsa.pub)
 * Then click in "Add SSH key" button
 
-**Step 4: Create new credentials in Jenkins**
+**Step 5: Create new credentials in Jenkins**
 * Copy the contents of your key, to see the content use the following command:
 ```
 cat /path/to/your/id_rsa
@@ -49,17 +62,17 @@ cat /path/to/your/id_rsa
   * Description: (Your github username) ssh key
 * Click in "OK" button
 
-**Step 5: Create an SCM Job**
+**Step 6: Create an SCM Job**
 * Go to Jenkins main page
 * Click New Item Link
 * Enter Item Name: SCM_Job
 * Select Freestyle Job
 * Click OK button
 
-**Step 6: Configure the Job**
+**Step 7: Configure the Job**
 * Fill the description with something like: GitHub SCM Job
 
-**Step 7: Add an SCM Step**
+**Step 8: Add an SCM Step**
 * Select the "Source Code Management" Tab from the top tab menu
 * Select "Git" option
 * Fill the Repositories values as follow:
@@ -68,12 +81,12 @@ cat /path/to/your/id_rsa
   * Credentials: select your created credentials
 * Note: Jenkins will try to access your repository, and it will show an error if it is not able to access, selecting your credentials should fix the issue
 
-**Step 8: Add Build Environment Step**
+**Step 9: Add Build Environment Step**
 * Select the "Build Environment" Tab from the top tab menu
 * Select "Delete workspace before build starts"
 * Click in "Save" button from the bottom.
 
-**Step 9: Test your SCM Job**
+**Step 10: Test your SCM Job**
 * From the right menu, select "Build Now"
 * You will see in the "Build History" the run of your job
 * Click on it and then click in "Console Output" from the right menu
