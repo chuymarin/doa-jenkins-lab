@@ -5,7 +5,6 @@
 * NPM version >= 5.0.0
 * Angular CLI >= 6.0.0
 * Docker >= 18.0.0
-* Git >= 2.13.16
 * Research about how to install these tools in your jenkins server
 
 **Step 1: Install NodeJs**
@@ -71,16 +70,6 @@ sudo service docker start
 * Verify docker version
 ```
 sudo docker -v
-```
-
-**Step 7: Install Git**
-* Install git
-```
-sudo yum install git
-```
-* Verify git version
-```
-sudo git version
 ```
 
 **Recap**
