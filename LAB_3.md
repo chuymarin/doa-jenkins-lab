@@ -4,6 +4,7 @@
 * Node version >= v10.0.0
 * NPM version >= 5.0.0
 * Angular CLI >= 6.0.0
+* Docker >= 18.0.0
 * Research about how to install these tools in your jenkins server
 
 **Step 1: Install NodeJs**
@@ -55,6 +56,20 @@ ln -s /usr/local/bin/ng /usr/sbin/ng
 ll /usr/sbin | grep node
 ll /usr/sbin | grep npm
 ll /usr/sbin | grep ng
+```
+
+**Step 6: Install Docker**
+* Install docker
+```
+sudo yum install docker
+```
+* Start docker service
+```
+sudo service docker start
+```
+* Verify docker version
+```
+sudo docker -v
 ```
 
 **Recap**
