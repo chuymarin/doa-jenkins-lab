@@ -31,11 +31,11 @@ Hello world
 **Step 3: Turn on a nginx container**
 * Run a nginx container mapped to the index.html file as follow:
 ```
-docker run --name nginx -v /var/lib/jenkins/nginx:/usr/share/nginx/html -d  -p 80:80 nginx:1.13.12
+sudo docker run --name nginx -v /var/lib/jenkins/nginx:/usr/share/nginx/html -d  -p 80:80 nginx:1.13.12
 ```
 * Ensure the container is running:
 ```
-docker ps -a
+sudo docker ps -a
 ```
 * Open nginx to see the index.html that you created.
 * Open in your browser: http://YOUR_INSTANCE_IP/
