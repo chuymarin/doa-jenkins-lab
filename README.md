@@ -7,5 +7,10 @@
 - [Lab 5 - Add Deploy Job to Jenkins Pipeline](https://github.com/chuymarin/doa-jenkins-lab/blob/master/LAB_5.md)
 
 **Authors**
-* Jesus Marin jesus.c.marin.garcia@accenture.com - [@chuyMarin](https://twitter.com/chuyMarin?)
-* Rocio Solis r.solis.contreras@accenture.com
+* Jesus Marin 
+  * email: jesus.c.marin.garcia@accenture.com
+  * github: [chuymarin](https://github.com/chuymarin)
+  * twitter: [@chuyMarin](https://twitter.com/chuyMarin)
+* Rocio Solis 
+  * email: r.solis.contreras@accenture.com
+  * github: [ChioSoCo](https://github.com/ChioSoCo)
